@@ -1,3 +1,88 @@
 .container {
-    background-color: grey;
+    margin-block: 30px;
+    /* border: 2px dashed red; */
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 300;
+}
+
+.post {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.imgContainer {
+    flex: 1;
+    height: 350px;
+    position: relative;
+    /* border: 2px dashed orange; */
+}
+
+.image {
+    object-fit: cover;
+}
+
+.textContainer {
+    flex: 1;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px dashed yellow; */
+}
+
+.postTitle {
+    font-size: 40px;
+}
+
+.postDesc {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--softTextColor);
+}
+
+.button {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+}
+
+@media screen and (max-width: 1280px) {
+    .title {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .imgContainer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .title {
+        font-size: 22px;
+    }
+
+    .postTitle {
+        font-size: 28px;
+    }
+
+    .textContainer {
+        gap: 5px;
+    }
 }

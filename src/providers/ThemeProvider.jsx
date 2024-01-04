@@ -11,11 +11,7 @@ function ThemeProvider({children }) {
     setMounted(true)
   }, []);
 
-  console.log("THeme Provier before mounted >> " + theme);
-
   if( mounted ){
-    console.log("THeme PRovier after mounted is >> " + mounted);
-    console.log("THeme PRovier Wrapper >> " + theme);
     return (
       <div className={theme}>{children }</div>
     )

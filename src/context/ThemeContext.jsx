@@ -7,7 +7,6 @@ export const ThemeContext = createContext();
 
 const getThemeFromLocalStorage = () => {
     if(typeof window !== "undefined"){
-        console.log("local storage value >>> " + localStorage.getItem(AppConstants.THEME))
         const localThemeValue = localStorage.getItem(AppConstants.THEME);
         return localThemeValue || AppConstants.LIGHT_THEME;
     }
