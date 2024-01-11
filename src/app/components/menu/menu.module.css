@@ -1,3 +1,13 @@
 .container {
-    background-color: yellow;
+   flex: 2;
+}
+
+.subtitle {
+   color: gray;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.title {
+   font-size: 28px;
 }
