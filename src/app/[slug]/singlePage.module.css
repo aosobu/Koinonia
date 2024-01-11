@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.content {
+    flex: 2;
+}
+
+.imageContainer, .userImageContainer {
+    width: 85%;
+    height: 350px;
+    position: relative;
+}
+
+.image {
+    object-fit: cover;
+    position: relative;
+}
