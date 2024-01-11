@@ -8,7 +8,7 @@ function MenuPost({withImage}) {
     <div className={styles.items}>
                 <Link href="/" className={styles.item}>
                     {withImage && <div className={styles.imageContainer}>
-                        <Image src="/culture.png" fill className={styles.image} />
+                        <Image src="/style.png" fill className={styles.image} />
                     </div>}
                     <div className={styles.textContainer}>
                         <span className={`${styles.category} ${styles.travel}`}>
@@ -23,7 +23,7 @@ function MenuPost({withImage}) {
                 </Link>
                 <Link href="/" className={styles.item}>
                     {withImage && <div className={styles.imageContainer}>
-                        <Image src="/culture.png" fill className={styles.image} />
+                        <Image src="/style.png" fill className={styles.image} />
                     </div>}
                     <div className={styles.textContainer}>
                         <span className={`${styles.category} ${styles.culture}`}>
@@ -38,7 +38,7 @@ function MenuPost({withImage}) {
                 </Link>
                 <Link href="/" className={styles.item}>
                     {withImage && <div className={styles.imageContainer}>
-                        <Image src="/culture.png" fill className={styles.image} />
+                        <Image src="/style.png" fill className={styles.image} />
                     </div>}
                     <div className={styles.textContainer}>
                         <span className={`${styles.category} ${styles.food}`}>
@@ -53,7 +53,7 @@ function MenuPost({withImage}) {
                 </Link>
                 <Link href="/" className={styles.item}>
                     {withImage && <div className={styles.imageContainer}>
-                        <Image src="/culture.png" fill className={styles.image} />
+                        <Image src="/style.png" fill className={styles.image} />
                     </div> }
                     <div className={styles.textContainer}>
                         <span className={`${styles.category} ${styles.fashion}`}>
@@ -68,7 +68,7 @@ function MenuPost({withImage}) {
                 </Link>
                 <Link href="/" className={styles.item}>
                     { withImage && <div className={styles.imageContainer}>
-                        <Image src="/culture.png" fill className={styles.image} />
+                        <Image src="/style.png" fill className={styles.image} />
                     </div> }
                     <div className={styles.textContainer}>
                         <span className={`${styles.category} ${styles.culture}`}>
